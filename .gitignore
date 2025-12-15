@@ -21,11 +21,11 @@ bin/nuclei.exe
 bin/nuclei-templates/
 bin/*.zip
 
-# Output files
+# Output files (only in root directory)
 *.json
 *.csv
-results/
-output/
+/results/
+/output/
 
 # Debug files (DO NOT COMMIT)
 debug_*.py
