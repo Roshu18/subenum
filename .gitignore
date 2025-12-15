@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Nuclei (too large for git)
+bin/nuclei.exe
+bin/nuclei-templates/
+bin/*.zip
+
+# Output files
+*.json
+*.csv
+results/
+output/
+
+# Wordlists (optional - uncomment if too large)
+# subdomains_110000.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
