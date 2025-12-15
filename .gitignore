@@ -27,8 +27,13 @@ bin/*.zip
 results/
 output/
 
-# Wordlists (optional - uncomment if too large)
-# subdomains_110000.txt
+# Debug files (DO NOT COMMIT)
+debug_*.py
+debug_*.txt
+
+# Large wordlists (too big for git)
+subdomains_110000.txt
+subdomains_5000.txt
 
 # OS
 .DS_Store
